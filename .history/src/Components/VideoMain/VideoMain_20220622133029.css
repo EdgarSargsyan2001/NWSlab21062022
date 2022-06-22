@@ -1,0 +1,16 @@
+.video{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.text{
+    /* position: absolute; */
+    border:2px solid red;
+    width: 1094px;
+    height: 420px;
+    left: 413px;
+    top: 330px;
+}

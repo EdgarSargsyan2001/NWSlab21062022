@@ -1,0 +1,12 @@
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.text{
+    border:2px solid red;
+
+}

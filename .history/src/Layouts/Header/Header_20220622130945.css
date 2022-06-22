@@ -1,0 +1,6 @@
+.nav{
+    width: 100vw;
+    height: 200px;
+    position: fixed;
+    border: 2px solid green;
+}

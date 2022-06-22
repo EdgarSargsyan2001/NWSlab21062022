@@ -1,0 +1,26 @@
+import React from 'react'
+import { HeaderStyle } from '../../style/headerStyle'
+import { FiChevronDown } from "react-icons/fi";
+
+
+function Header() {
+
+  
+  return (
+    <div>
+        <HeaderStyle>
+            <div className='logo'></div>
+            <ul className='ul'>
+                <li>tech stack <FiChevronDown/></li>
+                <li>industries <FiChevronDown/></li>
+                <li>company <FiChevronDown/></li>
+                <li>projects <FiChevronDown/></li>
+                <li>pricing <FiChevronDown/></li>
+
+            </ul>
+        </HeaderStyle>
+    </div>
+  )
+}
+
+export default Header

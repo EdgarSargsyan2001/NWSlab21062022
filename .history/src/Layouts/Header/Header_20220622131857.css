@@ -1,0 +1,7 @@
+.nav{
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    background: gr;
+    border: 2px solid green;
+}

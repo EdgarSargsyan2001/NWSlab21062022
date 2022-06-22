@@ -1,0 +1,18 @@
+
+.text{
+    width: 1094px;
+    height: 420px;  
+    position:absolute;
+    color: white;
+    font-family: 'Grandstander';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 140px;
+    line-height: 100%;
+    opacity: 1;
+    /* or 140px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+}

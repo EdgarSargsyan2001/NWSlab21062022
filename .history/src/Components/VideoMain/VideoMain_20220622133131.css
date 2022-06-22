@@ -1,0 +1,23 @@
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.text{
+    width: 1094px;
+height:     ;  
+    border:2px solid red;
+    font-family: 'Grandstander';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 140px;
+    line-height: 100%;
+    /* or 140px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+}
