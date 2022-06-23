@@ -1,0 +1,6 @@
+.Footer{
+    width: 100vw;
+    /* box-sizing: border-box; */
+    height: 500px;
+    border: 2px solid red;
+}
