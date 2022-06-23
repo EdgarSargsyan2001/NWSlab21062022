@@ -10,7 +10,7 @@ function Header() {
   return (
     <div>
         <HeaderStl>
-          <ContainerStl>
+          {/* <ContainerStl> */}
               <div className='header__inner'>
                     <div className='header__logo'>NWS</div>
 
@@ -24,7 +24,7 @@ function Header() {
                     <div className='navIcon'><FiList/></div>
 
               </div>
-          </ContainerStl>
+          {/* </ContainerStl> */}
         </HeaderStl>
 
         <VideoMain 

@@ -30,7 +30,7 @@ function Header() {
         <VideoMain 
           path='../../Assets/main.gif' 
           text='IT оutstaffing сompany'
-        />
+          />
     </div>
   )
 }

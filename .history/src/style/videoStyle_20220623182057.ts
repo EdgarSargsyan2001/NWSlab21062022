@@ -31,6 +31,10 @@ export const VideoStyle = styled.div`
         left: 0;
 
     }
+    /* .imgDiv img{
+        width:100vw;
+        height:100vh;
+    } */
 
     .text{
         max-width: 900px;

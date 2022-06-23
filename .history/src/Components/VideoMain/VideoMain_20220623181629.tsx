@@ -10,7 +10,7 @@ function VideoMain({path,height,text}:{path:string,height?:string,text?:string})
 
       <div className='imgDiv'>
 
-        {/* <img src={path} alt='gif'/> */}
+        <img src={path} alt='gif'/>
       </div>
 
       <h1 className='text'>{text}</h1>

@@ -6,12 +6,12 @@ function VideoMain({path,height,text}:{path:string,height?:string,text?:string})
 
 
    return (
-    <VideoStyle path={path}>
+    <VideoStyle >
 
-      <div className='imgDiv'>
+      {/* <div className='imgDiv'> */}
 
-        {/* <img src={path} alt='gif'/> */}
-      </div>
+        <img src={path} alt='gif'/>
+      {/* </div> */}
 
       <h1 className='text'>{text}</h1>
     

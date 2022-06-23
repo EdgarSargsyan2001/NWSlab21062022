@@ -27,10 +27,10 @@ function Header() {
           </ContainerStl>
         </HeaderStl>
 
-        <VideoMain 
-          path='../../Assets/main.gif' 
-          text='IT оutstaffing сompany'
-        />
+          <VideoMain 
+            path='../../Assets/main.gif' 
+            text='IT оutstaffing сompany'
+            />
     </div>
   )
 }

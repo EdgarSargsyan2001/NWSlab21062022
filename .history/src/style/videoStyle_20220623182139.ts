@@ -30,7 +30,7 @@ export const VideoStyle = styled.div`
         top: 0;
         left: 0;
 
-    }
+
 
     .text{
         max-width: 900px;

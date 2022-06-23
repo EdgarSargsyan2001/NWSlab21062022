@@ -51,7 +51,7 @@ export const MainCompSecChildStl = styled.div`
         font-weight: 500;
         font-size: 25px;
         line-height: 100%;
-        margin: 25px 0 10px 0 ;
+        margin: 10px 0 10px 0 ;
         transition: .8s;
     }
     

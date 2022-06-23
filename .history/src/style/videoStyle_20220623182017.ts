@@ -18,7 +18,7 @@ export const VideoStyle = styled.div`
         background-image:url(${({path}:{path:string})=>path}) ;
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment:fixed;
+        background-a: center;
     }
 
     .imgDiv::after{
@@ -30,6 +30,10 @@ export const VideoStyle = styled.div`
         top: 0;
         left: 0;
 
+    }
+    .imgDiv img{
+        width:100vw;
+        height:100vh;
     }
 
     .text{
@@ -52,7 +56,7 @@ export const VideoStyle = styled.div`
 
     @media screen and (max-width:1024px) {
 
-        .imgDiv::after,.imgDiv{
+        .imgDiv::after,.imgDiv img{
             height: 600px;
           
         }
@@ -69,7 +73,7 @@ export const VideoStyle = styled.div`
         }
     }
     @media screen and (max-width:350px) {
-        .imgDiv::after,.imgDiv{
+        .imgDiv::after,.imgDiv img{
             height: 500px;
           
         }

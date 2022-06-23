@@ -31,6 +31,10 @@ export const VideoStyle = styled.div`
         left: 0;
 
     }
+    .imgDiv img{
+        width:100vw;
+        height:100vh;
+    }
 
     .text{
         max-width: 900px;
@@ -52,7 +56,7 @@ export const VideoStyle = styled.div`
 
     @media screen and (max-width:1024px) {
 
-        .imgDiv::after,.imgDiv{
+        .imgDiv::after,.imgDiv img{
             height: 600px;
           
         }
@@ -69,7 +73,7 @@ export const VideoStyle = styled.div`
         }
     }
     @media screen and (max-width:350px) {
-        .imgDiv::after,.imgDiv{
+        .imgDiv::after,.imgDiv img{
             height: 500px;
           
         }
